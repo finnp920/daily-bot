@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "allowJs": true,
+    "outDir": "dist"
+    // "baseUrl": ".",
+    // "paths": {
+    //   "*": ["node_modules/*"]
+    // }
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
