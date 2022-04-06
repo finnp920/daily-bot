@@ -5,7 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "dev": "tsc-watch --onSuccess \"node dist/bot.js\"",
-    "deploy": "tsc && git push heroku main",
+    "compile": "tsc",
     "start": "tsc && node dist/bot.js"
   },
   "author": "finnp920 <fiinp920@gmail.com>",
