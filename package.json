@@ -4,7 +4,8 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/bot.js\""
+    "dev": "tsc-watch --onSuccess \"node dist/bot.js\"",
+    "start": "node dist/bot.js"
   },
   "author": "finnp920 <fiinp920@gmail.com>",
   "license": "MIT",
