@@ -20,7 +20,7 @@ const conversationId = 'daily';
 
 // 1분마다 작동하도록 cron 표현식 수정
 console.log(moment().format('[start] MM-DD HH:mm'));
-const scheduler = schedule.scheduleJob('0 */1 * * * *', async () => {
+const scheduler = schedule.scheduleJob('0 0 ? * MON-FRI *', async () => {
   const res = await web.chat.postMessage({
     channel: conversationId,
     text: `Yeeee~~ ${moment().format('MM-DD HH:mm')}`,
